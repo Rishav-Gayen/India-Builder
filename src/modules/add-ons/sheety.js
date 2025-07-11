@@ -28,7 +28,7 @@ export const saveTripToSheety = async (tripData, customerData) => {
   }
 
   //country
-  const country = "Vietnam"; 
+  const country = "India"; 
 
    const now = new Date();
   const timestampData = {
