@@ -23,6 +23,18 @@ export const destinations = [
         imageUrl: 'https://2.bp.blogspot.com/-rngKuIcReB4/WnbeVFUrVCI/AAAAAAAA6eI/TAcWVnHONScpXkdFUumqq2LdS6IBbfIxwCKgBGAs/s1600/IMG_20170517_082706242_HDR.jpg',
         selected: false
       },
+      {
+        id: 'amritsar',
+        name: 'Amritsar Golden Temple',
+        imageUrl: 'https://www.whyweseek.com/wp-content/uploads/2018/03/Golden-Temple-at-Night-Amritsar-1024x683.jpg',
+        selected: false
+      },
+      {
+        id: 'chopta',
+        name: 'Chopta - Tungnath - Chandrashila',
+        imageUrl: 'https://thetravelboat.com/wp-content/uploads/2022/12/Chopta-Tungnath-Trek-Tour-from-Rishikesh.jpg',
+        selected: false
+      }
     ],
     accommodationOptions: [
       'Accomodation (3 Star)',
@@ -70,6 +82,12 @@ export const destinations = [
         id: 'kochi',
         name: 'Kochi',
         imageUrl: 'https://casualwalker.com/wp-content/uploads/2019/04/Kochi_Cochin_Kerala_Trip00221-1024x683.jpg',
+        selected: false
+      },
+      {
+        id: 'wayanad',
+        name: 'Wayanad Village Tour',
+        imageUrl: 'http://wayanady.com/wp-content/uploads/2018/11/banasura2.jpg',
         selected: false
       }
     ],
@@ -121,6 +139,12 @@ export const destinations = [
         name: 'Udaypur',
         imageUrl: 'https://cdn.audleytravel.com/-/-/79/181024176050033208125049055046212110057015060127.jpg',
         selected: false
+      },
+      {
+        id: 'mount_abu',
+        name: 'Mount Abu',
+        imageUrl: 'https://www.tourism.rajasthan.gov.in/content/dam/rajasthan-tourism/english/city/explore/Toad%20Rock%20View%20Point.jpg',
+        selected: false
       }
     ],
     accommodationOptions: [
@@ -135,6 +159,138 @@ export const destinations = [
       idealFor: ['history', 'heritage']
     }
   },
+
+  {
+    id: 'maharashtra',
+    name: 'Maharashtra',
+    imageUrl: 'https://www.alliedcarrentals.com/wp-content/uploads/2019/08/Gateway-of-India.jpg',
+    shortDesc: 'Manhattan of India',
+    activities: [
+      {
+        id: 'lonavla',
+        name: 'Lonavla and Khandala',
+        imageUrl: 'https://hblimg.mmtcdn.com/content/hubble/img/lonavaladestimgs/mmt/activities/m_Rajmachi_Fort_Lonavala_1_l_480_640.jpg',
+        selected: false
+      },
+      {
+        id: 'ajanta',
+        name: 'Ajanta and Ellora Caves',
+        imageUrl: 'http://www.journeytoexplore.com/wp-content/uploads/2018/11/1__b_2qpzlNxq9q4Ac0Lxlkg.jpeg',
+        selected: false
+      },
+      {
+        id: 'MahaPanch',
+        name: 'Mahabaleshwar & Panchghani',
+        imageUrl: 'https://www.indianholidaytrip.com/upload/static/images/Mahabaleshwar.jpg',
+        selected: false
+      },
+    ],
+    accommodationOptions: [
+      'Accomodation (3 Star)',
+      'Accomodation (4 Star)',
+      'Accomodation (5 Star)',
+      'Airbnb'
+    ],
+    metadata: {
+      region: 'West India',
+      popular: true,
+      idealFor: ['history', 'heritage']
+    }
+  },
+
+  {
+    id: 'goa',
+    name: 'Goa',
+    imageUrl: 'https://goa-tourism.org.in/images/places-to-visit/headers/sinquerim-beach-goa-timings-entry-fee-goa-tourism-header-cr-hrishikesh-sharma.jpg',
+    shortDesc: 'Serene Beaches & exciting parties',
+    activities: [
+      {
+        id: 'beach',
+        name: 'North Goa Beach Circuit',
+        imageUrl: 'https://im.whatshot.in/img/2021/Oct/kalacha-beach-cropped-1634635294.jpg',
+        selected: false
+      },
+      {
+        id: 'relax',
+        name: 'South Goa Relaxation Tour',
+        imageUrl: 'https://awalkintheworld.com/wp-content/uploads/2020/12/palolem-beach-south-goa-1920x1080.jpg',
+        selected: false
+      },
+      {
+        id: 'church',
+        name: 'Old Goa church and fontainhas tour',
+        imageUrl: 'https://img.traveltriangle.com/blog/wp-content/uploads/2017/10/Our-Lady-of-Immaculate-Conception.jpg',
+        selected: false
+      },
+    ],
+    accommodationOptions: [
+      'Accomodation (3 Star)',
+      'Accomodation (4 Star)',
+      'Accomodation (5 Star)',
+      'Airbnb'
+    ],
+    metadata: {
+      region: 'West India',
+      popular: true,
+      idealFor: ['history', 'heritage']
+    }
+  },
+
+  {
+    id: 'northeast india',
+    name: 'North East India',
+    imageUrl: 'https://travelogyindia.b-cdn.net/storage/app/upload/northeast-history.jpg',
+    shortDesc: 'Find Peace and Tranquility',
+    activities: [
+      {
+        id: 'shillong',
+        name: 'Shillong and Cherapunjee',
+        imageUrl: 'https://www.kajaawa.com/wp-content/uploads/2022/03/Nohkalikai-Falls-1-kaga.jpg',
+        selected: false
+      },
+      {
+        id: 'tawang',
+        name: 'Tawang',
+        imageUrl: 'https://easternroutes.com/wp-content/uploads/2017/12/Sela_Pass_Gate-Tawang-Arunachal_Pradesh.jpg',
+        selected: false
+      },
+      {
+        id: 'kaziranga',
+        name: 'Kaziranga National Park in Assam',
+        imageUrl: 'https://www.alightindia.com/cdn/uploads/postimages/ORIGINAL/kp1--9fc463.jpg',
+        selected: false
+      },
+      {
+        id: 'gangtok',
+        name: 'Gangtok Tour',
+        imageUrl: 'https://www.tusktravel.com/blog/wp-content/uploads/2020/05/The-10-most-popular-tourist-attractions-in-Gangtok.jpg',
+        selected: false
+      },
+      {
+        id: 'ziro',
+        name: 'Ziro Valley',
+        imageUrl: 'https://travellersworldonline.com/wp-content/uploads/2023/06/15-June-Bali-1-1.jpg',
+        selected: false
+      },
+      {
+        id: 'majuli',
+        name: 'Majuli island Assam',
+        imageUrl: 'https://www.meghalayatourcabs.com/wp-content/uploads/2019/05/Majuli-River-Island-Assam-Tourist-Spots.jpg',
+        selected: false
+      },
+    ],
+    accommodationOptions: [
+      'Accomodation (3 Star)',
+      'Accomodation (4 Star)',
+      'Accomodation (5 Star)',
+      'Airbnb'
+    ],
+    metadata: {
+      region: 'West India',
+      popular: true,
+      idealFor: ['history', 'heritage']
+    }
+  }
 ];
 
 // Optional: Helper functions for data access
